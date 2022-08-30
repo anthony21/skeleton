@@ -10,11 +10,5 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_07_05_013816) do
-  create_table "temperatures", force: :cascade do |t|
-    t.string "hot"
-    t.string "cold"
-    t.string "warm"
-  end
-
+ActiveRecord::Schema[7.0].define(version: 0) do
 end
